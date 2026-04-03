@@ -20,7 +20,8 @@ export function SectorCard({ sector }: SectorCardProps) {
   return (
     <Link
       href={`/secteur/${sector.id}`}
-      className="group block bg-white rounded-xl border border-wavestone-deep/5 shadow-sm p-5 transition-all duration-200 hover:shadow-lg hover:scale-[1.02] hover:border-wavestone-blue/20"
+      className="group block bg-white rounded-xl border border-wavestone-deep/5 shadow-sm p-5 transition-all duration-200 hover:shadow-lg hover:scale-[1.02] hover:border-wavestone-blue/20 border-l-4"
+      style={{ borderLeftColor: sector.color }}
     >
       <div className="flex items-start gap-3">
         <span className="text-2xl" role="img" aria-label={sector.label}>
@@ -34,7 +35,7 @@ export function SectorCard({ sector }: SectorCardProps) {
             {sector.totalConsumption.toLocaleString("fr-FR", {
               maximumFractionDigits: 1,
             })}{" "}
-            TWh
+            TWh &middot; {sector.percentOfTotal.toFixed(1)}% du total
           </p>
         </div>
       </div>
