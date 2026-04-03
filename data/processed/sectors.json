@@ -1,0 +1,94 @@
+[
+  {
+    "id": "residentiel",
+    "label": "Résidentiel",
+    "icon": "home",
+    "totalConsumption": 475,
+    "totalConsumptionMtep": 40.8,
+    "percentOfTotal": 30.5,
+    "electricityShare": 38,
+    "color": "#1A3FBF",
+    "subsectorIds": [
+      "chauffage",
+      "eau_chaude_sanitaire",
+      "cuisson",
+      "electricite_specifique",
+      "climatisation"
+    ],
+    "year": 2022
+  },
+  {
+    "id": "tertiaire",
+    "label": "Tertiaire",
+    "icon": "building",
+    "totalConsumption": 245,
+    "totalConsumptionMtep": 21.1,
+    "percentOfTotal": 15.7,
+    "electricityShare": 51,
+    "color": "#4F7BE8",
+    "subsectorIds": [
+      "chauffage",
+      "climatisation",
+      "eclairage",
+      "bureautique_it",
+      "eau_chaude_sanitaire",
+      "cuisson"
+    ],
+    "year": 2022
+  },
+  {
+    "id": "industrie",
+    "label": "Industrie",
+    "icon": "factory",
+    "totalConsumption": 295,
+    "totalConsumptionMtep": 25.4,
+    "percentOfTotal": 19.0,
+    "electricityShare": 37,
+    "color": "#F28C28",
+    "subsectorIds": [
+      "siderurgie",
+      "chimie",
+      "agroalimentaire",
+      "papier_carton",
+      "materiaux_construction",
+      "autres_industries"
+    ],
+    "year": 2022
+  },
+  {
+    "id": "transports",
+    "label": "Transports",
+    "icon": "truck",
+    "totalConsumption": 490,
+    "totalConsumptionMtep": 42.1,
+    "percentOfTotal": 31.5,
+    "electricityShare": 3,
+    "color": "#EF4444",
+    "subsectorIds": [
+      "routier_voyageurs",
+      "routier_marchandises",
+      "ferroviaire",
+      "aerien_domestique",
+      "maritime_fluvial"
+    ],
+    "year": 2022
+  },
+  {
+    "id": "agriculture",
+    "label": "Agriculture",
+    "icon": "tractor",
+    "totalConsumption": 52,
+    "totalConsumptionMtep": 4.5,
+    "percentOfTotal": 3.3,
+    "electricityShare": 18,
+    "color": "#10B981",
+    "subsectorIds": [
+      "tracteurs_engins",
+      "serres_chauffage",
+      "sechage",
+      "irrigation",
+      "elevage"
+    ],
+    "year": 2022
+  }
+]

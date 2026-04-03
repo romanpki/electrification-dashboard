@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-wavestone-blue: #1A3FBF;
+  --color-wavestone-deep: #0A1A3F;
+  --color-wavestone-green: #00C853;
+  --color-wavestone-light: #E8EDFB;
+  --color-wavestone-gray: #F4F5F7;
+  --color-background: #ffffff;
+  --color-foreground: #0A1A3F;
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--color-wavestone-deep);
+}
+
+h1 { font-size: 2.25rem; }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.375rem; }
+h4 { font-size: 1.125rem; }
+
+::selection {
+  background-color: var(--color-wavestone-light);
+  color: var(--color-wavestone-deep);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-wavestone-blue);
+  outline-offset: 2px;
+}

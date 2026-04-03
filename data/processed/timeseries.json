@@ -1,0 +1,72 @@
+[
+  {
+    "sectorId": "residentiel",
+    "dataPoints": [
+      { "year": 2015, "electricityShare": 33.5 },
+      { "year": 2016, "electricityShare": 34.0 },
+      { "year": 2017, "electricityShare": 34.6 },
+      { "year": 2018, "electricityShare": 35.1 },
+      { "year": 2019, "electricityShare": 35.8 },
+      { "year": 2020, "electricityShare": 36.4 },
+      { "year": 2021, "electricityShare": 37.0 },
+      { "year": 2022, "electricityShare": 38.0 },
+      { "year": 2023, "electricityShare": 38.5 }
+    ]
+  },
+  {
+    "sectorId": "tertiaire",
+    "dataPoints": [
+      { "year": 2015, "electricityShare": 44.0 },
+      { "year": 2016, "electricityShare": 45.0 },
+      { "year": 2017, "electricityShare": 46.0 },
+      { "year": 2018, "electricityShare": 47.0 },
+      { "year": 2019, "electricityShare": 48.0 },
+      { "year": 2020, "electricityShare": 49.0 },
+      { "year": 2021, "electricityShare": 50.0 },
+      { "year": 2022, "electricityShare": 51.0 },
+      { "year": 2023, "electricityShare": 51.8 }
+    ]
+  },
+  {
+    "sectorId": "industrie",
+    "dataPoints": [
+      { "year": 2015, "electricityShare": 33.0 },
+      { "year": 2016, "electricityShare": 33.5 },
+      { "year": 2017, "electricityShare": 34.0 },
+      { "year": 2018, "electricityShare": 34.5 },
+      { "year": 2019, "electricityShare": 35.0 },
+      { "year": 2020, "electricityShare": 35.5 },
+      { "year": 2021, "electricityShare": 36.2 },
+      { "year": 2022, "electricityShare": 37.0 },
+      { "year": 2023, "electricityShare": 37.5 }
+    ]
+  },
+  {
+    "sectorId": "transports",
+    "dataPoints": [
+      { "year": 2015, "electricityShare": 2.0 },
+      { "year": 2016, "electricityShare": 2.1 },
+      { "year": 2017, "electricityShare": 2.1 },
+      { "year": 2018, "electricityShare": 2.2 },
+      { "year": 2019, "electricityShare": 2.3 },
+      { "year": 2020, "electricityShare": 2.4 },
+      { "year": 2021, "electricityShare": 2.6 },
+      { "year": 2022, "electricityShare": 3.0 },
+      { "year": 2023, "electricityShare": 3.3 }
+    ]
+  },
+  {
+    "sectorId": "agriculture",
+    "dataPoints": [
+      { "year": 2015, "electricityShare": 14.0 },
+      { "year": 2016, "electricityShare": 14.5 },
+      { "year": 2017, "electricityShare": 15.0 },
+      { "year": 2018, "electricityShare": 15.5 },
+      { "year": 2019, "electricityShare": 16.0 },
+      { "year": 2020, "electricityShare": 16.5 },
+      { "year": 2021, "electricityShare": 17.2 },
+      { "year": 2022, "electricityShare": 18.0 },
+      { "year": 2023, "electricityShare": 18.5 }
+    ]
+  }
+]
