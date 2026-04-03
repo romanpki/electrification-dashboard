@@ -81,5 +81,5 @@ export const SECTORS = [
   },
 ] as const;
 
-/** Total national final energy consumption (TWh, ~2022) */
-export const TOTAL_CONSUMPTION_TWH = 1557;
+/** Total national final energy consumption (TWh, 2022, source: SDES Bilan énergétique) */
+export const TOTAL_CONSUMPTION_TWH = 1543;

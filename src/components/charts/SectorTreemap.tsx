@@ -51,6 +51,7 @@ export function SectorTreemap({ sectors }: SectorTreemapProps) {
           sectorId: s.id,
           itemStyle: {
             color: getSectorColor(s.id),
+            cursor: "pointer",
           },
         })),
       },

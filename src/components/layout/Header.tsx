@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { UnitToggle } from "@/components/ui/UnitToggle";
 
 const SECTOR_LINKS = [
   { label: "Résidentiel", href: "/secteur/residentiel" },
@@ -16,7 +17,7 @@ export function Header() {
   const [sectorsOpen, setSectorsOpen] = useState(false);
 
   return (
-    <header className="bg-wavestone-deep text-white sticky top-0 z-50">
+    <header className="bg-wavestone-deep text-white sticky top-0 z-50 shadow-lg">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
@@ -91,7 +92,10 @@ export function Header() {
               Sankey
             </Link>
 
-            <span className="text-white/50 text-xs ml-4">
+            <div className="ml-4 border-l border-white/20 pl-4">
+              <UnitToggle />
+            </div>
+            <span className="text-white/50 text-xs">
               Powered by <span className="font-semibold text-white/70">Wavestone</span>
             </span>
           </nav>
@@ -145,8 +149,11 @@ export function Header() {
           >
             Sankey
           </Link>
-          <div className="pt-3 border-t border-white/10 text-white/50 text-xs">
-            Powered by <span className="font-semibold text-white/70">Wavestone</span>
+          <div className="pt-3 border-t border-white/10 flex items-center justify-between">
+            <UnitToggle />
+            <span className="text-white/50 text-xs">
+              Powered by <span className="font-semibold text-white/70">Wavestone</span>
+            </span>
           </div>
         </nav>
       )}

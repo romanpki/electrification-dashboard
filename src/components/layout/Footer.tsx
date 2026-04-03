@@ -25,7 +25,8 @@ export function Footer() {
             <span>Powered by <span className="font-semibold text-white/90">Wavestone</span></span>
           </div>
           <p className="text-white/50 text-xs text-center sm:text-right">
-            Données : SDES, ODRE, RTE, Eurostat
+            Source : <span className="text-white/70">SDES — Bilan énergétique de la France 2022</span>
+            <span className="mx-2">·</span>ODRE · RTE · Eurostat
           </p>
         </div>
       </div>
