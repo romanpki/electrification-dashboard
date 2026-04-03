@@ -1,0 +1,372 @@
+[
+  {
+    "id": "chauffage",
+    "sectorId": "residentiel",
+    "label": "Chauffage",
+    "totalConsumption": 310,
+    "totalConsumptionMtep": 26.66,
+    "percentOfSector": 65.3,
+    "electricityShare": 18,
+    "energyMix": [
+      { "energyType": "gaz_naturel", "label": "Gaz naturel", "consumption": 136.4, "consumptionMtep": 11.73, "percentage": 44, "color": "#F59E0B" },
+      { "energyType": "produits_petroliers", "label": "Produits pétroliers", "consumption": 62, "consumptionMtep": 5.33, "percentage": 20, "color": "#EF4444" },
+      { "energyType": "electricite", "label": "Électricité", "consumption": 55.8, "consumptionMtep": 4.8, "percentage": 18, "color": "#1A3FBF" },
+      { "energyType": "energies_renouvelables", "label": "EnR thermiques", "consumption": 43.4, "consumptionMtep": 3.73, "percentage": 14, "color": "#10B981" },
+      { "energyType": "chaleur_reseaux", "label": "Chaleur réseaux", "consumption": 12.4, "consumptionMtep": 1.07, "percentage": 4, "color": "#8B5CF6" }
+    ]
+  },
+  {
+    "id": "eau-chaude-sanitaire",
+    "sectorId": "residentiel",
+    "label": "Eau chaude sanitaire",
+    "totalConsumption": 80,
+    "totalConsumptionMtep": 6.88,
+    "percentOfSector": 16.8,
+    "electricityShare": 45,
+    "energyMix": [
+      { "energyType": "electricite", "label": "Électricité", "consumption": 36, "consumptionMtep": 3.09, "percentage": 45, "color": "#1A3FBF" },
+      { "energyType": "gaz_naturel", "label": "Gaz naturel", "consumption": 28, "consumptionMtep": 2.41, "percentage": 35, "color": "#F59E0B" },
+      { "energyType": "energies_renouvelables", "label": "EnR thermiques", "consumption": 10.4, "consumptionMtep": 0.89, "percentage": 13, "color": "#10B981" },
+      { "energyType": "produits_petroliers", "label": "Produits pétroliers", "consumption": 5.6, "consumptionMtep": 0.48, "percentage": 7, "color": "#EF4444" }
+    ]
+  },
+  {
+    "id": "electricite-specifique",
+    "sectorId": "residentiel",
+    "label": "Électricité spécifique",
+    "totalConsumption": 50,
+    "totalConsumptionMtep": 4.3,
+    "percentOfSector": 10.5,
+    "electricityShare": 100,
+    "energyMix": [
+      { "energyType": "electricite", "label": "Électricité", "consumption": 50, "consumptionMtep": 4.3, "percentage": 100, "color": "#1A3FBF" }
+    ]
+  },
+  {
+    "id": "cuisson-residentiel",
+    "sectorId": "residentiel",
+    "label": "Cuisson",
+    "totalConsumption": 28,
+    "totalConsumptionMtep": 2.41,
+    "percentOfSector": 5.9,
+    "electricityShare": 40,
+    "energyMix": [
+      { "energyType": "gaz_naturel", "label": "Gaz naturel", "consumption": 16.8, "consumptionMtep": 1.44, "percentage": 60, "color": "#F59E0B" },
+      { "energyType": "electricite", "label": "Électricité", "consumption": 11.2, "consumptionMtep": 0.96, "percentage": 40, "color": "#1A3FBF" }
+    ]
+  },
+  {
+    "id": "climatisation-residentiel",
+    "sectorId": "residentiel",
+    "label": "Climatisation",
+    "totalConsumption": 7,
+    "totalConsumptionMtep": 0.6,
+    "percentOfSector": 1.5,
+    "electricityShare": 100,
+    "energyMix": [
+      { "energyType": "electricite", "label": "Électricité", "consumption": 7, "consumptionMtep": 0.6, "percentage": 100, "color": "#1A3FBF" }
+    ]
+  },
+  {
+    "id": "chauffage-tertiaire",
+    "sectorId": "tertiaire",
+    "label": "Chauffage",
+    "totalConsumption": 98,
+    "totalConsumptionMtep": 8.43,
+    "percentOfSector": 40,
+    "electricityShare": 30,
+    "energyMix": [
+      { "energyType": "gaz_naturel", "label": "Gaz naturel", "consumption": 39.2, "consumptionMtep": 3.37, "percentage": 40, "color": "#F59E0B" },
+      { "energyType": "electricite", "label": "Électricité", "consumption": 29.4, "consumptionMtep": 2.53, "percentage": 30, "color": "#1A3FBF" },
+      { "energyType": "chaleur_reseaux", "label": "Chaleur réseaux", "consumption": 14.7, "consumptionMtep": 1.26, "percentage": 15, "color": "#8B5CF6" },
+      { "energyType": "produits_petroliers", "label": "Produits pétroliers", "consumption": 9.8, "consumptionMtep": 0.84, "percentage": 10, "color": "#EF4444" },
+      { "energyType": "energies_renouvelables", "label": "EnR thermiques", "consumption": 4.9, "consumptionMtep": 0.42, "percentage": 5, "color": "#10B981" }
+    ]
+  },
+  {
+    "id": "eclairage",
+    "sectorId": "tertiaire",
+    "label": "Éclairage",
+    "totalConsumption": 35,
+    "totalConsumptionMtep": 3.01,
+    "percentOfSector": 14.3,
+    "electricityShare": 100,
+    "energyMix": [
+      { "energyType": "electricite", "label": "Électricité", "consumption": 35, "consumptionMtep": 3.01, "percentage": 100, "color": "#1A3FBF" }
+    ]
+  },
+  {
+    "id": "bureautique-it",
+    "sectorId": "tertiaire",
+    "label": "Bureautique / IT",
+    "totalConsumption": 30,
+    "totalConsumptionMtep": 2.58,
+    "percentOfSector": 12.2,
+    "electricityShare": 100,
+    "energyMix": [
+      { "energyType": "electricite", "label": "Électricité", "consumption": 30, "consumptionMtep": 2.58, "percentage": 100, "color": "#1A3FBF" }
+    ]
+  },
+  {
+    "id": "eau-chaude-tertiaire",
+    "sectorId": "tertiaire",
+    "label": "Eau chaude sanitaire",
+    "totalConsumption": 32,
+    "totalConsumptionMtep": 2.75,
+    "percentOfSector": 13.1,
+    "electricityShare": 35,
+    "energyMix": [
+      { "energyType": "gaz_naturel", "label": "Gaz naturel", "consumption": 16, "consumptionMtep": 1.38, "percentage": 50, "color": "#F59E0B" },
+      { "energyType": "electricite", "label": "Électricité", "consumption": 11.2, "consumptionMtep": 0.96, "percentage": 35, "color": "#1A3FBF" },
+      { "energyType": "energies_renouvelables", "label": "EnR thermiques", "consumption": 4.8, "consumptionMtep": 0.41, "percentage": 15, "color": "#10B981" }
+    ]
+  },
+  {
+    "id": "climatisation-tertiaire",
+    "sectorId": "tertiaire",
+    "label": "Climatisation",
+    "totalConsumption": 22,
+    "totalConsumptionMtep": 1.89,
+    "percentOfSector": 9,
+    "electricityShare": 95,
+    "energyMix": [
+      { "energyType": "electricite", "label": "Électricité", "consumption": 20.9, "consumptionMtep": 1.8, "percentage": 95, "color": "#1A3FBF" },
+      { "energyType": "gaz_naturel", "label": "Gaz naturel", "consumption": 1.1, "consumptionMtep": 0.09, "percentage": 5, "color": "#F59E0B" }
+    ]
+  },
+  {
+    "id": "cuisson-tertiaire",
+    "sectorId": "tertiaire",
+    "label": "Cuisson",
+    "totalConsumption": 28,
+    "totalConsumptionMtep": 2.41,
+    "percentOfSector": 11.4,
+    "electricityShare": 40,
+    "energyMix": [
+      { "energyType": "gaz_naturel", "label": "Gaz naturel", "consumption": 16.8, "consumptionMtep": 1.44, "percentage": 60, "color": "#F59E0B" },
+      { "energyType": "electricite", "label": "Électricité", "consumption": 11.2, "consumptionMtep": 0.96, "percentage": 40, "color": "#1A3FBF" }
+    ]
+  },
+  {
+    "id": "siderurgie",
+    "sectorId": "industrie",
+    "label": "Sidérurgie",
+    "totalConsumption": 55,
+    "totalConsumptionMtep": 4.73,
+    "percentOfSector": 18.6,
+    "electricityShare": 42,
+    "energyMix": [
+      { "energyType": "charbon", "label": "Charbon", "consumption": 19.25, "consumptionMtep": 1.66, "percentage": 35, "color": "#374151" },
+      { "energyType": "electricite", "label": "Électricité", "consumption": 23.1, "consumptionMtep": 1.99, "percentage": 42, "color": "#1A3FBF" },
+      { "energyType": "gaz_naturel", "label": "Gaz naturel", "consumption": 12.65, "consumptionMtep": 1.09, "percentage": 23, "color": "#F59E0B" }
+    ]
+  },
+  {
+    "id": "chimie",
+    "sectorId": "industrie",
+    "label": "Chimie",
+    "totalConsumption": 65,
+    "totalConsumptionMtep": 5.59,
+    "percentOfSector": 22,
+    "electricityShare": 38,
+    "energyMix": [
+      { "energyType": "gaz_naturel", "label": "Gaz naturel", "consumption": 26, "consumptionMtep": 2.24, "percentage": 40, "color": "#F59E0B" },
+      { "energyType": "electricite", "label": "Électricité", "consumption": 24.7, "consumptionMtep": 2.12, "percentage": 38, "color": "#1A3FBF" },
+      { "energyType": "produits_petroliers", "label": "Produits pétroliers", "consumption": 9.75, "consumptionMtep": 0.84, "percentage": 15, "color": "#EF4444" },
+      { "energyType": "energies_renouvelables", "label": "EnR thermiques", "consumption": 4.55, "consumptionMtep": 0.39, "percentage": 7, "color": "#10B981" }
+    ]
+  },
+  {
+    "id": "agroalimentaire",
+    "sectorId": "industrie",
+    "label": "Agroalimentaire",
+    "totalConsumption": 50,
+    "totalConsumptionMtep": 4.3,
+    "percentOfSector": 16.9,
+    "electricityShare": 35,
+    "energyMix": [
+      { "energyType": "gaz_naturel", "label": "Gaz naturel", "consumption": 25, "consumptionMtep": 2.15, "percentage": 50, "color": "#F59E0B" },
+      { "energyType": "electricite", "label": "Électricité", "consumption": 17.5, "consumptionMtep": 1.5, "percentage": 35, "color": "#1A3FBF" },
+      { "energyType": "energies_renouvelables", "label": "EnR thermiques", "consumption": 7.5, "consumptionMtep": 0.64, "percentage": 15, "color": "#10B981" }
+    ]
+  },
+  {
+    "id": "materiaux-construction",
+    "sectorId": "industrie",
+    "label": "Matériaux de construction",
+    "totalConsumption": 58,
+    "totalConsumptionMtep": 4.99,
+    "percentOfSector": 19.7,
+    "electricityShare": 28,
+    "energyMix": [
+      { "energyType": "produits_petroliers", "label": "Produits pétroliers", "consumption": 17.4, "consumptionMtep": 1.5, "percentage": 30, "color": "#EF4444" },
+      { "energyType": "electricite", "label": "Électricité", "consumption": 16.24, "consumptionMtep": 1.4, "percentage": 28, "color": "#1A3FBF" },
+      { "energyType": "gaz_naturel", "label": "Gaz naturel", "consumption": 14.5, "consumptionMtep": 1.25, "percentage": 25, "color": "#F59E0B" },
+      { "energyType": "charbon", "label": "Charbon", "consumption": 9.86, "consumptionMtep": 0.85, "percentage": 17, "color": "#374151" }
+    ]
+  },
+  {
+    "id": "papier-carton",
+    "sectorId": "industrie",
+    "label": "Papier-carton",
+    "totalConsumption": 22,
+    "totalConsumptionMtep": 1.89,
+    "percentOfSector": 7.5,
+    "electricityShare": 30,
+    "energyMix": [
+      { "energyType": "gaz_naturel", "label": "Gaz naturel", "consumption": 8.8, "consumptionMtep": 0.76, "percentage": 40, "color": "#F59E0B" },
+      { "energyType": "electricite", "label": "Électricité", "consumption": 6.6, "consumptionMtep": 0.57, "percentage": 30, "color": "#1A3FBF" },
+      { "energyType": "energies_renouvelables", "label": "EnR thermiques", "consumption": 6.6, "consumptionMtep": 0.57, "percentage": 30, "color": "#10B981" }
+    ]
+  },
+  {
+    "id": "autres-industries",
+    "sectorId": "industrie",
+    "label": "Autres industries",
+    "totalConsumption": 45,
+    "totalConsumptionMtep": 3.87,
+    "percentOfSector": 15.3,
+    "electricityShare": 45,
+    "energyMix": [
+      { "energyType": "electricite", "label": "Électricité", "consumption": 20.25, "consumptionMtep": 1.74, "percentage": 45, "color": "#1A3FBF" },
+      { "energyType": "gaz_naturel", "label": "Gaz naturel", "consumption": 15.75, "consumptionMtep": 1.35, "percentage": 35, "color": "#F59E0B" },
+      { "energyType": "produits_petroliers", "label": "Produits pétroliers", "consumption": 9, "consumptionMtep": 0.77, "percentage": 20, "color": "#EF4444" }
+    ]
+  },
+  {
+    "id": "routier-voyageurs",
+    "sectorId": "transports",
+    "label": "Routier voyageurs",
+    "totalConsumption": 245,
+    "totalConsumptionMtep": 21.07,
+    "percentOfSector": 50,
+    "electricityShare": 2,
+    "energyMix": [
+      { "energyType": "produits_petroliers", "label": "Produits pétroliers", "consumption": 237.65, "consumptionMtep": 20.44, "percentage": 97, "color": "#EF4444" },
+      { "energyType": "electricite", "label": "Électricité", "consumption": 4.9, "consumptionMtep": 0.42, "percentage": 2, "color": "#1A3FBF" },
+      { "energyType": "energies_renouvelables", "label": "EnR (biocarburants)", "consumption": 2.45, "consumptionMtep": 0.21, "percentage": 1, "color": "#10B981" }
+    ]
+  },
+  {
+    "id": "routier-marchandises",
+    "sectorId": "transports",
+    "label": "Routier marchandises",
+    "totalConsumption": 165,
+    "totalConsumptionMtep": 14.19,
+    "percentOfSector": 33.7,
+    "electricityShare": 1,
+    "energyMix": [
+      { "energyType": "produits_petroliers", "label": "Produits pétroliers", "consumption": 161.7, "consumptionMtep": 13.91, "percentage": 98, "color": "#EF4444" },
+      { "energyType": "electricite", "label": "Électricité", "consumption": 1.65, "consumptionMtep": 0.14, "percentage": 1, "color": "#1A3FBF" },
+      { "energyType": "energies_renouvelables", "label": "EnR (biocarburants)", "consumption": 1.65, "consumptionMtep": 0.14, "percentage": 1, "color": "#10B981" }
+    ]
+  },
+  {
+    "id": "ferroviaire",
+    "sectorId": "transports",
+    "label": "Ferroviaire",
+    "totalConsumption": 12,
+    "totalConsumptionMtep": 1.03,
+    "percentOfSector": 2.4,
+    "electricityShare": 80,
+    "energyMix": [
+      { "energyType": "electricite", "label": "Électricité", "consumption": 9.6, "consumptionMtep": 0.83, "percentage": 80, "color": "#1A3FBF" },
+      { "energyType": "produits_petroliers", "label": "Produits pétroliers", "consumption": 2.4, "consumptionMtep": 0.21, "percentage": 20, "color": "#EF4444" }
+    ]
+  },
+  {
+    "id": "aerien-domestique",
+    "sectorId": "transports",
+    "label": "Aérien domestique",
+    "totalConsumption": 55,
+    "totalConsumptionMtep": 4.73,
+    "percentOfSector": 11.2,
+    "electricityShare": 0,
+    "energyMix": [
+      { "energyType": "produits_petroliers", "label": "Kérosène", "consumption": 55, "consumptionMtep": 4.73, "percentage": 100, "color": "#EF4444" }
+    ]
+  },
+  {
+    "id": "maritime-fluvial",
+    "sectorId": "transports",
+    "label": "Maritime et fluvial",
+    "totalConsumption": 13,
+    "totalConsumptionMtep": 1.12,
+    "percentOfSector": 2.7,
+    "electricityShare": 2,
+    "energyMix": [
+      { "energyType": "produits_petroliers", "label": "Produits pétroliers", "consumption": 12.74, "consumptionMtep": 1.1, "percentage": 98, "color": "#EF4444" },
+      { "energyType": "electricite", "label": "Électricité", "consumption": 0.26, "consumptionMtep": 0.02, "percentage": 2, "color": "#1A3FBF" }
+    ]
+  },
+  {
+    "id": "tracteurs-engins",
+    "sectorId": "agriculture",
+    "label": "Tracteurs et engins",
+    "totalConsumption": 25,
+    "totalConsumptionMtep": 2.15,
+    "percentOfSector": 48.1,
+    "electricityShare": 2,
+    "energyMix": [
+      { "energyType": "produits_petroliers", "label": "Gazole non routier", "consumption": 24.5, "consumptionMtep": 2.11, "percentage": 98, "color": "#EF4444" },
+      { "energyType": "electricite", "label": "Électricité", "consumption": 0.5, "consumptionMtep": 0.04, "percentage": 2, "color": "#1A3FBF" }
+    ]
+  },
+  {
+    "id": "serres-chauffage",
+    "sectorId": "agriculture",
+    "label": "Serres et chauffage",
+    "totalConsumption": 10,
+    "totalConsumptionMtep": 0.86,
+    "percentOfSector": 19.2,
+    "electricityShare": 20,
+    "energyMix": [
+      { "energyType": "gaz_naturel", "label": "Gaz naturel", "consumption": 5, "consumptionMtep": 0.43, "percentage": 50, "color": "#F59E0B" },
+      { "energyType": "electricite", "label": "Électricité", "consumption": 2, "consumptionMtep": 0.17, "percentage": 20, "color": "#1A3FBF" },
+      { "energyType": "energies_renouvelables", "label": "EnR thermiques", "consumption": 2, "consumptionMtep": 0.17, "percentage": 20, "color": "#10B981" },
+      { "energyType": "produits_petroliers", "label": "Produits pétroliers", "consumption": 1, "consumptionMtep": 0.09, "percentage": 10, "color": "#EF4444" }
+    ]
+  },
+  {
+    "id": "sechage",
+    "sectorId": "agriculture",
+    "label": "Séchage",
+    "totalConsumption": 7,
+    "totalConsumptionMtep": 0.6,
+    "percentOfSector": 13.5,
+    "electricityShare": 35,
+    "energyMix": [
+      { "energyType": "gaz_naturel", "label": "Gaz naturel", "consumption": 3.5, "consumptionMtep": 0.3, "percentage": 50, "color": "#F59E0B" },
+      { "energyType": "electricite", "label": "Électricité", "consumption": 2.45, "consumptionMtep": 0.21, "percentage": 35, "color": "#1A3FBF" },
+      { "energyType": "energies_renouvelables", "label": "EnR thermiques", "consumption": 1.05, "consumptionMtep": 0.09, "percentage": 15, "color": "#10B981" }
+    ]
+  },
+  {
+    "id": "irrigation",
+    "sectorId": "agriculture",
+    "label": "Irrigation",
+    "totalConsumption": 5,
+    "totalConsumptionMtep": 0.43,
+    "percentOfSector": 9.6,
+    "electricityShare": 80,
+    "energyMix": [
+      { "energyType": "electricite", "label": "Électricité", "consumption": 4, "consumptionMtep": 0.34, "percentage": 80, "color": "#1A3FBF" },
+      { "energyType": "produits_petroliers", "label": "Produits pétroliers", "consumption": 1, "consumptionMtep": 0.09, "percentage": 20, "color": "#EF4444" }
+    ]
+  },
+  {
+    "id": "elevage",
+    "sectorId": "agriculture",
+    "label": "Élevage",
+    "totalConsumption": 5,
+    "totalConsumptionMtep": 0.43,
+    "percentOfSector": 9.6,
+    "electricityShare": 40,
+    "energyMix": [
+      { "energyType": "electricite", "label": "Électricité", "consumption": 2, "consumptionMtep": 0.17, "percentage": 40, "color": "#1A3FBF" },
+      { "energyType": "gaz_naturel", "label": "Gaz naturel", "consumption": 1.5, "consumptionMtep": 0.13, "percentage": 30, "color": "#F59E0B" },
+      { "energyType": "produits_petroliers", "label": "Produits pétroliers", "consumption": 1, "consumptionMtep": 0.09, "percentage": 20, "color": "#EF4444" },
+      { "energyType": "energies_renouvelables", "label": "EnR thermiques", "consumption": 0.5, "consumptionMtep": 0.04, "percentage": 10, "color": "#10B981" }
+    ]
+  }
+]
